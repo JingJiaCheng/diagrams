@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-09-25T08:16:14.764Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36" etag="DS2eCzukRaC6_m1bcXgH" version="13.7.5" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2020-09-25T08:17:46.347Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36" etag="ccoEzmhczdCeg44mt53M" version="13.7.5" type="github" pages="3">
   <diagram id="6hGFLwfOUW9BJ-s0fimq" name="Task_ISR">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -226,16 +226,6 @@
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="390" y="150" as="sourcePoint" />
             <mxPoint x="500" y="230" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="NlhL2ucX-o813Alhx69r-2" value="&lt;span style=&quot;font-size: 11px&quot;&gt;set tType&lt;br&gt;cancel tMax&lt;br&gt;&lt;/span&gt;" style="edgeLabel;html=1;align=left;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="7vjewOakr1YMdAu-aTvx-1">
-          <mxGeometry x="570.0028571428571" y="120.00000000000003" as="geometry">
-            <mxPoint x="2" y="-4" as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="NlhL2ucX-o813Alhx69r-3" value="&lt;span style=&quot;font-size: 11px&quot;&gt;set tError&lt;br&gt;cancel tMax&lt;br&gt;&lt;/span&gt;" style="edgeLabel;html=1;align=left;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="7vjewOakr1YMdAu-aTvx-1">
-          <mxGeometry x="570.0028571428571" y="360" as="geometry">
-            <mxPoint x="2" y="-4" as="offset" />
           </mxGeometry>
         </mxCell>
       </root>
