@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-09-25T08:29:39.509Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36" etag="MWNJURpAe2MPFK7XieXA" version="13.7.5" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2020-09-25T08:33:17.409Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36" etag="J0oAY69jDYvyZNIBqD47" version="13.7.5" type="github" pages="3">
   <diagram id="6hGFLwfOUW9BJ-s0fimq" name="Task_ISR">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -166,7 +166,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="_a4g9BumJukdhW8n23NV" name="States">
-    <mxGraphModel dx="1185" dy="1804" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="677" dy="1532" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="7vjewOakr1YMdAu-aTvx-0" />
         <mxCell id="7vjewOakr1YMdAu-aTvx-1" parent="7vjewOakr1YMdAu-aTvx-0" />
@@ -194,7 +194,7 @@
           <mxGeometry x="520" y="40" width="180" height="140" as="geometry" />
         </mxCell>
         <mxCell id="aZIyjjJVG06GauiFi_Xp-3" value="VNM_PRESLEEP" style="shape=umlFrame;whiteSpace=wrap;html=1;align=left;width=100;height=30;" vertex="1" parent="7vjewOakr1YMdAu-aTvx-1">
-          <mxGeometry x="930" y="280" width="180" height="140" as="geometry" />
+          <mxGeometry x="1120" y="290" width="180" height="140" as="geometry" />
         </mxCell>
         <mxCell id="aZIyjjJVG06GauiFi_Xp-4" value="VNM_PRESLEEPLH" style="shape=umlFrame;whiteSpace=wrap;html=1;align=left;width=120;height=30;" vertex="1" parent="7vjewOakr1YMdAu-aTvx-1">
           <mxGeometry x="100" y="600" width="180" height="140" as="geometry" />
@@ -213,8 +213,7 @@
             <mxPoint x="520" y="210" as="sourcePoint" />
             <mxPoint x="570" y="160" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="450" y="150" />
-              <mxPoint x="460" y="150" />
+              <mxPoint x="420" y="150" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -245,6 +244,14 @@
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="700" y="120" as="sourcePoint" />
             <mxPoint x="900" y="330" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="810" y="280" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NlhL2ucX-o813Alhx69r-10" value="LogicalSuccessor = OWN&lt;br&gt;&amp;amp;&amp;amp;&amp;nbsp;VNM_SI_SIBIT &lt;br&gt;&amp;amp;&amp;amp;&amp;nbsp;&lt;span style=&quot;font-size: 7px&quot;&gt;VNM_SLEEPACK_TRUE &lt;br&gt;&amp;amp;&amp;amp;&amp;nbsp;VNM_SLEEPIND &amp;amp;&amp;amp;&amp;nbsp;VNM_SI_SENT&lt;br&gt;&lt;/span&gt;&amp;amp;&amp;amp;&amp;nbsp;VNM_SLEEP_TMR_XPIRED" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=7;" vertex="1" connectable="0" parent="NlhL2ucX-o813Alhx69r-6">
+          <mxGeometry x="0.5559" y="-2" relative="1" as="geometry">
+            <mxPoint x="-14.88" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="NlhL2ucX-o813Alhx69r-7" value="VNM_RINGTTYP_TMR_XPIRED&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=7;" vertex="1" parent="7vjewOakr1YMdAu-aTvx-1">
