@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-09-25T07:49:56.698Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36" etag="AAY_A4NATwc34_EDbqvx" version="13.7.5" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2020-09-25T07:52:08.197Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36" etag="oed5d89HIqrO9nS43CI3" version="13.7.5" type="github" pages="3">
   <diagram id="6hGFLwfOUW9BJ-s0fimq" name="Task_ISR">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -59,12 +59,18 @@
     </mxGraphModel>
   </diagram>
   <diagram id="QY_lR7ETdZ8TZl8407Ok" name="Initialization">
-    <mxGraphModel dx="1185" dy="635" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="569" dy="305" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="uBehZIFvxrX26Bamisyg-0" />
         <mxCell id="uBehZIFvxrX26Bamisyg-1" parent="uBehZIFvxrX26Bamisyg-0" />
+        <mxCell id="Tm81C0nEIaUr_5rDPv3G-0" value="&lt;span style=&quot;text-align: center&quot;&gt;EcuM_AL_DriverInitTwo&lt;/span&gt;" style="shape=umlFrame;whiteSpace=wrap;html=1;align=left;width=140;height=20;" vertex="1" parent="uBehZIFvxrX26Bamisyg-1">
+          <mxGeometry x="40" y="100" width="200" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="Tm81C0nEIaUr_5rDPv3G-18" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.503;entryY=-0.001;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="uBehZIFvxrX26Bamisyg-1" source="xlQVclnz08z0t-vTAVDQ-0" target="Tm81C0nEIaUr_5rDPv3G-0">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="xlQVclnz08z0t-vTAVDQ-0" value="System On" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="uBehZIFvxrX26Bamisyg-1">
-          <mxGeometry x="70" y="40" width="80" height="40" as="geometry" />
+          <mxGeometry x="100" y="30" width="80" height="40" as="geometry" />
         </mxCell>
         <mxCell id="EbGmw0zZCs1X8fLbjLKE-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="uBehZIFvxrX26Bamisyg-1" source="EbGmw0zZCs1X8fLbjLKE-0" target="EbGmw0zZCs1X8fLbjLKE-3">
           <mxGeometry relative="1" as="geometry" />
@@ -144,20 +150,17 @@
         <mxCell id="EbGmw0zZCs1X8fLbjLKE-26" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;align=left;" vertex="1" parent="uBehZIFvxrX26Bamisyg-1">
           <mxGeometry x="654.7" y="570" width="57" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Tm81C0nEIaUr_5rDPv3G-0" value="&lt;span style=&quot;text-align: center&quot;&gt;EcuM_AL_DriverInitTwo&lt;/span&gt;" style="shape=umlFrame;whiteSpace=wrap;html=1;align=left;width=140;height=20;" vertex="1" parent="uBehZIFvxrX26Bamisyg-1">
-          <mxGeometry x="40" y="130" width="200" height="160" as="geometry" />
-        </mxCell>
         <mxCell id="Tm81C0nEIaUr_5rDPv3G-1" value="&lt;span style=&quot;font-weight: 700 ; text-align: center&quot;&gt;VNM_Start&lt;/span&gt;" style="shape=umlFrame;whiteSpace=wrap;html=1;align=left;width=110;height=20;" vertex="1" parent="uBehZIFvxrX26Bamisyg-1">
-          <mxGeometry x="160" y="250" width="80" height="40" as="geometry" />
+          <mxGeometry x="160" y="220" width="80" height="40" as="geometry" />
         </mxCell>
         <mxCell id="Tm81C0nEIaUr_5rDPv3G-2" value="&lt;span style=&quot;text-align: center&quot;&gt;VNM_PowerOnInit&lt;/span&gt;" style="shape=umlFrame;whiteSpace=wrap;html=1;align=left;width=110;height=20;" vertex="1" parent="uBehZIFvxrX26Bamisyg-1">
-          <mxGeometry x="130" y="220" width="110" height="70" as="geometry" />
+          <mxGeometry x="130" y="190" width="110" height="70" as="geometry" />
         </mxCell>
         <mxCell id="Tm81C0nEIaUr_5rDPv3G-3" value="&lt;span style=&quot;text-align: center&quot;&gt;CanNm_Init&lt;/span&gt;" style="shape=umlFrame;whiteSpace=wrap;html=1;align=left;width=80;height=20;" vertex="1" parent="uBehZIFvxrX26Bamisyg-1">
-          <mxGeometry x="100" y="190" width="140" height="100" as="geometry" />
+          <mxGeometry x="100" y="160" width="140" height="100" as="geometry" />
         </mxCell>
         <mxCell id="Tm81C0nEIaUr_5rDPv3G-4" value="&lt;span style=&quot;text-align: center&quot;&gt;Ccl_Init&lt;/span&gt;" style="shape=umlFrame;whiteSpace=wrap;html=1;align=left;width=50;height=20;" vertex="1" parent="uBehZIFvxrX26Bamisyg-1">
-          <mxGeometry x="70" y="160" width="170" height="130" as="geometry" />
+          <mxGeometry x="70" y="130" width="170" height="130" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
