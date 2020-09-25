@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-09-25T08:18:52.464Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36" etag="WE2SSkj9l2j83tsz-RRo" version="13.7.5" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2020-09-25T08:19:49.801Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36" etag="_D0jm29pvXvtKHPNkiPF" version="13.7.5" type="github" pages="3">
   <diagram id="6hGFLwfOUW9BJ-s0fimq" name="Task_ISR">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -200,7 +200,7 @@
           <mxGeometry x="100" y="600" width="180" height="140" as="geometry" />
         </mxCell>
         <mxCell id="aZIyjjJVG06GauiFi_Xp-5" value="VNM_WBS" style="shape=umlFrame;whiteSpace=wrap;html=1;align=left;width=70;height=30;" vertex="1" parent="7vjewOakr1YMdAu-aTvx-1">
-          <mxGeometry x="830" y="40" width="180" height="140" as="geometry" />
+          <mxGeometry x="930" y="40" width="180" height="140" as="geometry" />
         </mxCell>
         <mxCell id="aZIyjjJVG06GauiFi_Xp-6" value="VNM_WBSLH" style="shape=umlFrame;whiteSpace=wrap;html=1;align=left;width=80;height=30;" vertex="1" parent="7vjewOakr1YMdAu-aTvx-1">
           <mxGeometry x="140" y="770" width="180" height="140" as="geometry" />
@@ -232,6 +232,11 @@
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="700" y="120" as="sourcePoint" />
             <mxPoint x="750" y="70" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NlhL2ucX-o813Alhx69r-5" value="VNM_SI_SA&lt;br&gt;&amp;amp;&amp;amp;&lt;br&gt;VNM_SLEEPIND&lt;br&gt;&amp;amp;&amp;amp;&lt;br&gt;&lt;span style=&quot;font-size: 11px&quot;&gt;VNM_SLEEP_TMR_XPIRED&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="NlhL2ucX-o813Alhx69r-4">
+          <mxGeometry x="-0.3466" y="17" relative="1" as="geometry">
+            <mxPoint x="18" y="-17" as="offset" />
           </mxGeometry>
         </mxCell>
       </root>
