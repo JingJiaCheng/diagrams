@@ -1,13 +1,72 @@
-<mxfile host="99fcfa64-9ccb-4e45-81bf-308fcc680fe9" modified="2020-09-25T05:57:42.767Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.49.2 Chrome/83.0.4103.122 Electron/9.2.1 Safari/537.36" etag="S5KZt9fz3RVNmeu0oxTm" version="13.1.3">
-    <diagram id="6hGFLwfOUW9BJ-s0fimq" name="Page-1">
-        <mxGraphModel dx="744" dy="577" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
-            <root>
-                <mxCell id="0"/>
-                <mxCell id="1" parent="0"/>
-                <mxCell id="2" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-                    <mxGeometry x="180" y="110" width="120" height="60" as="geometry"/>
-                </mxCell>
-            </root>
-        </mxGraphModel>
-    </diagram>
+<mxfile host="app.diagrams.net" modified="2020-09-25T06:54:40.930Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36" etag="yjgsg_pTCsEuDm3BbBU0" version="13.7.5" type="github" pages="2">
+  <diagram id="6hGFLwfOUW9BJ-s0fimq" name="Task_ISR">
+    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="RJqeacJe7ygeDEC2YVOS-10" value="RX ISR" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="230" y="60" width="100" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="L6MXmkapWXacrAFX_1VP-14" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="RJqeacJe7ygeDEC2YVOS-10">
+          <mxGeometry x="45" y="120" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="L6MXmkapWXacrAFX_1VP-15" value="CanIf_RxIndication" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;" edge="1" target="L6MXmkapWXacrAFX_1VP-14" parent="RJqeacJe7ygeDEC2YVOS-10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-25" y="120" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L6MXmkapWXacrAFX_1VP-16" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;" edge="1" source="L6MXmkapWXacrAFX_1VP-14" parent="RJqeacJe7ygeDEC2YVOS-10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-25" y="196" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L6MXmkapWXacrAFX_1VP-1" value="BusOff ISR" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="60" y="60" width="100" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="L6MXmkapWXacrAFX_1VP-8" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="L6MXmkapWXacrAFX_1VP-1">
+          <mxGeometry x="45" y="130" width="10" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="L6MXmkapWXacrAFX_1VP-9" value="callback" style="html=1;verticalAlign=bottom;endArrow=block;entryX=1;entryY=0;" edge="1" target="L6MXmkapWXacrAFX_1VP-8" parent="L6MXmkapWXacrAFX_1VP-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="115" y="130" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L6MXmkapWXacrAFX_1VP-10" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=1;exitY=0.95;" edge="1" source="L6MXmkapWXacrAFX_1VP-8" parent="L6MXmkapWXacrAFX_1VP-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="115" y="187" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L6MXmkapWXacrAFX_1VP-2" value="Tx ISR" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="401" y="60" width="100" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="L6MXmkapWXacrAFX_1VP-11" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="L6MXmkapWXacrAFX_1VP-2">
+          <mxGeometry x="45" y="130" width="10" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="L6MXmkapWXacrAFX_1VP-12" value="CanIf_Transmit" style="html=1;verticalAlign=bottom;endArrow=block;entryX=1;entryY=0;" edge="1" target="L6MXmkapWXacrAFX_1VP-11" parent="L6MXmkapWXacrAFX_1VP-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="115" y="130" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L6MXmkapWXacrAFX_1VP-13" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=1;exitY=0.95;" edge="1" source="L6MXmkapWXacrAFX_1VP-11" parent="L6MXmkapWXacrAFX_1VP-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="115" y="187" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L6MXmkapWXacrAFX_1VP-3" value="OsTask_10msCAN" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="585.5" y="60" width="109" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="L6MXmkapWXacrAFX_1VP-4" value="CanCcl_MainFunction()" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="570" y="195" width="140" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="QY_lR7ETdZ8TZl8407Ok" name="Page-2">
+    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="uBehZIFvxrX26Bamisyg-0" />
+        <mxCell id="uBehZIFvxrX26Bamisyg-1" parent="uBehZIFvxrX26Bamisyg-0" />
+      </root>
+    </mxGraphModel>
+  </diagram>
 </mxfile>
