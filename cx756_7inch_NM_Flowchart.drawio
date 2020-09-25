@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-09-25T07:58:12.871Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36" etag="BMwBcXgzlYL7_fmdMy4h" version="13.7.5" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2020-09-25T07:59:39.982Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36" etag="S5Khiy2gqa3Fl77tku5Z" version="13.7.5" type="github" pages="3">
   <diagram id="6hGFLwfOUW9BJ-s0fimq" name="Task_ISR">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -166,7 +166,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="_a4g9BumJukdhW8n23NV" name="States">
-    <mxGraphModel dx="677" dy="363" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="813" dy="435" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="7vjewOakr1YMdAu-aTvx-0" />
         <mxCell id="7vjewOakr1YMdAu-aTvx-1" parent="7vjewOakr1YMdAu-aTvx-0" />
@@ -189,6 +189,24 @@
         </mxCell>
         <mxCell id="aZIyjjJVG06GauiFi_Xp-1" value="VNM_LIMPHOME" style="shape=umlFrame;whiteSpace=wrap;html=1;align=left;width=110;height=30;" vertex="1" parent="7vjewOakr1YMdAu-aTvx-1">
           <mxGeometry x="460" y="40" width="180" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="aZIyjjJVG06GauiFi_Xp-2" value="VNM_NORMAL" style="shape=umlFrame;whiteSpace=wrap;html=1;align=left;width=100;height=30;" vertex="1" parent="7vjewOakr1YMdAu-aTvx-1">
+          <mxGeometry x="460" y="190" width="180" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="aZIyjjJVG06GauiFi_Xp-3" value="VNM_PRESLEEP" style="shape=umlFrame;whiteSpace=wrap;html=1;align=left;width=100;height=30;" vertex="1" parent="7vjewOakr1YMdAu-aTvx-1">
+          <mxGeometry x="460" y="340" width="180" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="aZIyjjJVG06GauiFi_Xp-4" value="VNM_PRESLEEPLH" style="shape=umlFrame;whiteSpace=wrap;html=1;align=left;width=120;height=30;" vertex="1" parent="7vjewOakr1YMdAu-aTvx-1">
+          <mxGeometry x="460" y="490" width="180" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="aZIyjjJVG06GauiFi_Xp-5" value="VNM_WBS" style="shape=umlFrame;whiteSpace=wrap;html=1;align=left;width=70;height=30;" vertex="1" parent="7vjewOakr1YMdAu-aTvx-1">
+          <mxGeometry x="460" y="640" width="180" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="aZIyjjJVG06GauiFi_Xp-6" value="VNM_WBSLH" style="shape=umlFrame;whiteSpace=wrap;html=1;align=left;width=80;height=30;" vertex="1" parent="7vjewOakr1YMdAu-aTvx-1">
+          <mxGeometry x="460" y="790" width="180" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="aZIyjjJVG06GauiFi_Xp-7" value="VNM_SLEEP" style="shape=umlFrame;whiteSpace=wrap;html=1;align=left;width=80;height=30;" vertex="1" parent="7vjewOakr1YMdAu-aTvx-1">
+          <mxGeometry x="460" y="950" width="180" height="140" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
