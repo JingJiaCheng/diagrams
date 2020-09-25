@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-09-25T08:27:55.763Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36" etag="nFbOITMyur_mD6PV-eV1" version="13.7.5" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2020-09-25T08:29:39.509Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36" etag="MWNJURpAe2MPFK7XieXA" version="13.7.5" type="github" pages="3">
   <diagram id="6hGFLwfOUW9BJ-s0fimq" name="Task_ISR">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -213,7 +213,8 @@
             <mxPoint x="520" y="210" as="sourcePoint" />
             <mxPoint x="570" y="160" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="420" y="150" />
+              <mxPoint x="450" y="150" />
+              <mxPoint x="460" y="150" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -222,7 +223,7 @@
             <mxPoint y="-28" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="NlhL2ucX-o813Alhx69r-1" value="&lt;br&gt;&lt;br&gt;&lt;span style=&quot;color: rgb(0 , 0 , 0) ; font-family: &amp;#34;helvetica&amp;#34; ; font-size: 11px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; background-color: rgb(255 , 255 , 255) ; display: inline ; float: none&quot;&gt;tx &amp;gt; 8&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;br style=&quot;color: rgb(0 , 0 , 0) ; font-family: &amp;#34;helvetica&amp;#34; ; font-size: 11px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px&quot;&gt;&lt;font face=&quot;helvetica&quot;&gt;||&lt;/font&gt;&lt;br style=&quot;color: rgb(0 , 0 , 0) ; font-family: &amp;#34;helvetica&amp;#34; ; font-size: 11px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px&quot;&gt;&lt;span style=&quot;color: rgb(0 , 0 , 0) ; font-family: &amp;#34;helvetica&amp;#34; ; font-size: 11px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; background-color: rgb(255 , 255 , 255) ; display: inline ; float: none&quot;&gt;rx &amp;gt; 4&lt;/span&gt;" style="endArrow=classic;html=1;entryX=-0.009;entryY=0.117;entryDx=0;entryDy=0;entryPerimeter=0;edgeStyle=elbowEdgeStyle;" edge="1" parent="7vjewOakr1YMdAu-aTvx-1">
+        <mxCell id="NlhL2ucX-o813Alhx69r-1" value="&lt;br&gt;&lt;br&gt;&lt;span style=&quot;color: rgb(0 , 0 , 0) ; font-family: &amp;#34;helvetica&amp;#34; ; font-size: 11px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; background-color: rgb(255 , 255 , 255) ; display: inline ; float: none&quot;&gt;tx &amp;gt; 8&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;br style=&quot;color: rgb(0 , 0 , 0) ; font-family: &amp;#34;helvetica&amp;#34; ; font-size: 11px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px&quot;&gt;&lt;font face=&quot;helvetica&quot;&gt;||&lt;/font&gt;&lt;br style=&quot;color: rgb(0 , 0 , 0) ; font-family: &amp;#34;helvetica&amp;#34; ; font-size: 11px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px&quot;&gt;&lt;span style=&quot;color: rgb(0 , 0 , 0) ; font-family: &amp;#34;helvetica&amp;#34; ; font-size: 11px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; background-color: rgb(255 , 255 , 255) ; display: inline ; float: none&quot;&gt;rx &amp;gt; 4&lt;/span&gt;" style="endArrow=classic;html=1;entryX=-0.009;entryY=0.12;entryDx=0;entryDy=0;entryPerimeter=0;edgeStyle=elbowEdgeStyle;" edge="1" parent="7vjewOakr1YMdAu-aTvx-1" target="aZIyjjJVG06GauiFi_Xp-1">
           <mxGeometry x="-0.0946" y="25" width="50" height="50" relative="1" as="geometry">
             <mxPoint x="391" y="150" as="sourcePoint" />
             <mxPoint x="519.3800000000001" y="296.3800000000001" as="targetPoint" />
@@ -246,8 +247,8 @@
             <mxPoint x="900" y="330" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="NlhL2ucX-o813Alhx69r-7" value="VNM_RINGTTYP_TMR_XPIRED &amp;amp;&amp;amp; LogicalSuccessor = OWN&lt;br&gt;&amp;amp;&amp;amp;&amp;nbsp;&lt;span style=&quot;font-size: 7px&quot;&gt;VNM_SI_SIBIT &amp;amp;&amp;amp;&amp;nbsp;VNM_SLEEPACK_TRUE &lt;br&gt;&amp;amp;&amp;amp;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-size: 7px&quot;&gt;VNM_SLEEPIND&amp;nbsp; &amp;amp;&amp;amp;&amp;nbsp;VNM_SI_SENT &lt;br&gt;&amp;amp;&amp;amp;&amp;nbsp;VNM_SLEEP_TMR_XPIRED&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=7;" vertex="1" parent="7vjewOakr1YMdAu-aTvx-1">
-          <mxGeometry x="660" y="210" width="350" height="40" as="geometry" />
+        <mxCell id="NlhL2ucX-o813Alhx69r-7" value="VNM_RINGTTYP_TMR_XPIRED&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=7;" vertex="1" parent="7vjewOakr1YMdAu-aTvx-1">
+          <mxGeometry x="735" y="225" width="200" height="10" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
