@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-09-25T07:31:49.739Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36" etag="5Ey9I0sWPzq_4uqslw-4" version="13.7.5" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2020-09-25T07:33:26.944Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36" etag="A4XUcyH2ovDCXHouWAs5" version="13.7.5" type="github" pages="3">
   <diagram id="6hGFLwfOUW9BJ-s0fimq" name="Task_ISR">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -186,6 +186,12 @@
         </mxCell>
         <mxCell id="7vjewOakr1YMdAu-aTvx-6" value="VNM_InitReset" style="shape=umlFrame;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="7vjewOakr1YMdAu-aTvx-1">
           <mxGeometry x="200" y="130" width="280" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="1-6RARnUb_M8ikJXJZD0-0" value="&lt;div&gt;VNM_Rxcount = 0;&lt;/div&gt;&lt;div&gt;VNM_Txcount = 0;&lt;/div&gt;&lt;div&gt;VNM_CLEARRXMSG_AVAIL;&lt;/div&gt;&lt;div&gt;VNM_CLEARMSGTXD;&lt;/div&gt;&lt;div&gt;VNM_CLEARLHMARK;&lt;/div&gt;&lt;div&gt;VNM_CLEARSLEEPACK;&lt;/div&gt;&lt;div&gt;&lt;span&gt;	&lt;/span&gt;VNM_CLEAR_SLEEPACK_STATUS;&lt;/div&gt;&lt;div&gt;&lt;span&gt;	&lt;/span&gt;VNM_CLEAR_SI_SENT;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;align=left;" vertex="1" parent="7vjewOakr1YMdAu-aTvx-1">
+          <mxGeometry x="250" y="170" width="230" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="1-6RARnUb_M8ikJXJZD0-1" value="VNM_Reset" style="shape=umlFrame;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="7vjewOakr1YMdAu-aTvx-1">
+          <mxGeometry x="250" y="300" width="230" height="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
