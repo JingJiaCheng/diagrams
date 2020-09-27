@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-09-27T07:41:20.638Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36" etag="07rSyH3ccfR1Bz4_twUW" version="13.7.5" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2020-09-27T07:43:52.015Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36" etag="Gf8Xc7YsRFrHWwhVZdu6" version="13.7.5" type="github" pages="4">
   <diagram id="6hGFLwfOUW9BJ-s0fimq" name="Task_ISR">
     <mxGraphModel dx="1422" dy="762" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="1">
       <root>
@@ -775,7 +775,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="SQh9rJ_jeK0fSV2RxY1Y" name="LimphomeDTC">
-    <mxGraphModel dx="981" dy="526" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="1">
+    <mxGraphModel dx="1422" dy="762" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="1">
       <root>
         <mxCell id="bsu8hVI_eUVWEHNEilwe-0" />
         <mxCell id="bsu8hVI_eUVWEHNEilwe-1" parent="bsu8hVI_eUVWEHNEilwe-0" />
@@ -831,16 +831,28 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="8ytQ_PEdTNOEaKOPxuWW-0" value="VNM_DTC" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="bsu8hVI_eUVWEHNEilwe-1">
-          <mxGeometry x="898.5" y="20" width="40" height="20" as="geometry" />
+          <mxGeometry x="953.5" y="20" width="40" height="20" as="geometry" />
         </mxCell>
         <mxCell id="8ytQ_PEdTNOEaKOPxuWW-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="bsu8hVI_eUVWEHNEilwe-1" source="8ytQ_PEdTNOEaKOPxuWW-1" target="8ytQ_PEdTNOEaKOPxuWW-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="8ytQ_PEdTNOEaKOPxuWW-1" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="bsu8hVI_eUVWEHNEilwe-1">
-          <mxGeometry x="893" y="40" width="51" height="26" as="geometry" />
+          <mxGeometry x="948" y="40" width="51" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="8ytQ_PEdTNOEaKOPxuWW-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="bsu8hVI_eUVWEHNEilwe-1" source="8ytQ_PEdTNOEaKOPxuWW-2" target="8ytQ_PEdTNOEaKOPxuWW-4">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="8ytQ_PEdTNOEaKOPxuWW-2" value="NM_State =&amp;nbsp;&amp;nbsp;VNM_status.State" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="bsu8hVI_eUVWEHNEilwe-1">
-          <mxGeometry x="849.75" y="130" width="137.5" height="33" as="geometry" />
+          <mxGeometry x="904.75" y="130" width="137.5" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="8ytQ_PEdTNOEaKOPxuWW-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="bsu8hVI_eUVWEHNEilwe-1" source="8ytQ_PEdTNOEaKOPxuWW-4" target="8ytQ_PEdTNOEaKOPxuWW-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8ytQ_PEdTNOEaKOPxuWW-4" value="&lt;div&gt;&lt;span&gt;	&lt;/span&gt;CANNM_DTC_TMR_GO&lt;/div&gt;&lt;div&gt;&lt;span&gt;	&lt;/span&gt;CANNM_DTCRCV_TMR_GO&lt;/div&gt;&lt;div&gt;&lt;span&gt;	&lt;/span&gt;VNM_DTC_DELAY_TMR_GO()&lt;/div&gt;" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="bsu8hVI_eUVWEHNEilwe-1">
+          <mxGeometry x="883.25" y="232" width="180.5" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8ytQ_PEdTNOEaKOPxuWW-6" value="System ON 3s&lt;br&gt;&amp;amp;&amp;amp;&lt;br&gt;! BusOff" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="bsu8hVI_eUVWEHNEilwe-1">
+          <mxGeometry x="857.75" y="370" width="231.5" height="61" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
