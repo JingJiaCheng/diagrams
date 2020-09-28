@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-09-28T09:06:31.836Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36" etag="qgwKd0HlWgPc-FYXFs9w" version="13.7.5" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2020-09-28T09:07:54.252Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36" etag="yD8xnjjBTVRqWUfML0ZZ" version="13.7.5" type="github" pages="4">
   <diagram id="6hGFLwfOUW9BJ-s0fimq" name="Task_ISR">
     <mxGraphModel dx="1038" dy="548" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="1">
       <root>
@@ -272,7 +272,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="6pURXlIAFPtq0XiU5yVD-7" value="&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;LogicalSuccessor = OWN&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;&amp;amp;&amp;amp;&amp;nbsp;VNM_SI_SIBIT&amp;nbsp;&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;&amp;amp;&amp;amp;&amp;nbsp;&lt;/span&gt;&lt;span&gt;VNM_SLEEPACK_TRUE&amp;nbsp;&lt;br&gt;&amp;amp;&amp;amp;&amp;nbsp;VNM_SLEEPIND &amp;amp;&amp;amp;&amp;nbsp;VNM_SI_SENT&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;&amp;amp;&amp;amp;&amp;nbsp;VNM_SLEEP_TMR_XPIRED&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;fontSize=7;align=center;" parent="xXRtl5_8g4ps1sOeALML-1" vertex="1">
+        <mxCell id="6pURXlIAFPtq0XiU5yVD-7" value="LogicalSuccessor = OWN&lt;br&gt;&amp;amp;&amp;amp;&amp;nbsp;VNM_SI_SIBIT&amp;nbsp;&lt;br&gt;&amp;amp;&amp;amp;&amp;nbsp;&lt;span&gt;VNM_SLEEPACK_TRUE&amp;nbsp;&lt;br&gt;&amp;amp;&amp;amp;&amp;nbsp;VNM_SLEEPIND &amp;amp;&amp;amp;&amp;nbsp;VNM_SI_SENT&lt;br&gt;&lt;/span&gt;&amp;amp;&amp;amp;&amp;nbsp;VNM_SLEEP_TMR_XPIRED" style="rhombus;whiteSpace=wrap;html=1;fontSize=7;align=center;" parent="xXRtl5_8g4ps1sOeALML-1" vertex="1">
           <mxGeometry x="1111" y="563" width="180" height="87" as="geometry" />
         </mxCell>
         <mxCell id="6pURXlIAFPtq0XiU5yVD-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="xXRtl5_8g4ps1sOeALML-1" source="6pURXlIAFPtq0XiU5yVD-9" target="6pURXlIAFPtq0XiU5yVD-15" edge="1">
